@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "owner": "zans.dev",
+    "name": "SkyConnect",
+    "slug": "MobileApp",
+    "scheme": "aero.smartlynx.skyconnect",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "REACT_APP_API_URL": "https://apiskyconnecttest.smartlynx.aero",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dd395c08-de9d-48b8-9239-096e7ad7d0c5"
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "aero.smartlynx.skyconnect"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "sdkVersion": "49.0.0"
+  },
+  "name": "SkyConnectApp"
+}

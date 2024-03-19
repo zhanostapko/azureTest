@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585350520521",
+    "project_id": "skyconnect-b7725",
+    "storage_bucket": "skyconnect-b7725.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585350520521:android:e0f515ca0c3021cfebb718",
+        "android_client_info": {
+          "package_name": "aero.smartlynx.skyconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Cud1Z640ItY2hCKg08Ms9yfZjbSibGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
